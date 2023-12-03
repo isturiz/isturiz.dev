@@ -1,6 +1,7 @@
 "use server";
 
 import { sql } from "@vercel/postgres";
+import { revalidatePath, unstable_noStore as noStore } from "next/cache";
 
 export async function increment(slug: string) {
   noStore();
