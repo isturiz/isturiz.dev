@@ -1,10 +1,13 @@
 export default function Page() {
   return (
     <section>
-      <h1 className="font-medium text-2xl mb-8 tracking-tighter">my portfolio</h1>
+      <h1 className="font-medium text-2xl mb-8 tracking-tighter">
+        I'm Mauricio Istúriz 👾
+      </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        This is your new portfolio.
+        I'm a software developer.
       </p>
+      <p>Page in progress...🔨👷</p>
     </section>
   );
 }
