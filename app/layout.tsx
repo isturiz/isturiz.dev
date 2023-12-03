@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     default: "Mauricio Istúriz",
     template: "%s | Mauricio Istúriz",
   },
-  description: "Developer, writer, and creator.",
+  description: "Developer.",
   openGraph: {
-    title: "Lee Robinson",
-    description: "Developer, writer, and creator.",
+    title: "Mauricio Istúriz",
+    description: "Developer",
     url: "https://isturiz",
-    siteName: "Lee Robinson",
+    siteName: "Mauricio Istúriz",
     locale: "en_US",
     type: "website",
   },
@@ -31,10 +31,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: "Lee Robinson",
-    card: "summary_large_image",
   },
   verification: {
     google: "",
